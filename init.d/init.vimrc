@@ -31,6 +31,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'moll/vim-node', { 'for': ['js'] }
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install', 'for': ['js'] }
+Plug 'hail2u/vim-css3-syntax', { 'for': ['css,less,scss'] }
 
 " Color schemes :)
 Plug 'jonathanfilip/vim-lucius'

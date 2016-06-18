@@ -57,4 +57,4 @@ let g:airline_theme = 'hybrid'
 autocmd! BufWritePost * Neomake
 
 " hinting javascipt with eslint, but exec with eslint_d
-" let g:neomake_javascript_enable_makers = ['eslint_d']
+let g:neomake_javascript_enable_makers = ['eslint_d']
