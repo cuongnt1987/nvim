@@ -126,6 +126,9 @@ set tabstop=3
 set lbr
 set tw=500
 
+" Display color colume
+set colorcolumn=80
+
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines

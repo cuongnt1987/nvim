@@ -15,7 +15,7 @@ endfunction
 call plug#begin()
 Plug 'neomake/neomake'
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern', 'for': ['js'] }
+Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern', 'for': ['javascript'] }
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind']}
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': ['NERDTreeToggle', 'NERDTreeFind']}
@@ -29,9 +29,12 @@ Plug 'majutsushi/tagbar'
 Plug 'Yggdroot/indentLine'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
-Plug 'moll/vim-node', { 'for': ['js'] }
-Plug 'ternjs/tern_for_vim', { 'do': 'npm install', 'for': ['js'] }
+Plug 'moll/vim-node', { 'for': ['javascript'] }
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install', 'for': ['javascript'] }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['css,less,scss'] }
+Plug 'mattn/emmet-vim', { 'for': ['html'] }
+Plug 'leafgarland/typescript-vim', { 'for': ['typescript'] }
+Plug 'HerringtonDarkholme/yats.vim', { 'for': [ 'typescript' ] }
 
 " Color schemes :)
 Plug 'jonathanfilip/vim-lucius'
