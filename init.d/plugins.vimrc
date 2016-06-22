@@ -78,3 +78,19 @@ let g:neomake_error_sign = {'text': '✖', 'texthl': 'NeomakeErrorSignDefault'}
 let g:neomake_warning_sign = {'text': '⚠', 'texthl': 'NeomakeWarningSignDefault'}
 let g:neomake_message_sign = {'text': '➤', 'texthl': 'NeomakeMessageSignDefault'}
 let g:neomake_info_sign = {'text': 'ℹ', 'texthl': 'NeomakeInfoSignDefault'}
+
+" ===============================================
+" vim-easy-align config
+" ===============================================
+" Mapping
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
+" align with =
+xmap <leader>a= gaip=
+xmap <leader>a: gaip<right>:
+nmap <leader>a= gaip=
+nmap <leader>a: gaip<right>:
