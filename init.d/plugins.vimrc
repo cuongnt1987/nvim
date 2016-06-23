@@ -3,6 +3,8 @@
 " ===============================================
 " Automaticallly start deoplete when Neovim start
 let g:deoplete#enable_at_startup = 1
+" Close the preview window after completion done
+autocmd CompleteDone * pclose!
 
 " ===============================================
 " dooplete-ternjs

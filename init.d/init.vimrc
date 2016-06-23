@@ -33,6 +33,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'moll/vim-node', { 'for': ['javascript'] }
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install', 'for': ['javascript'] }
+Plug 'pangloss/vim-javascript', { 'for': [ 'javascript' ] }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['css,less,scss'] }
 Plug 'mattn/emmet-vim', { 'for': ['html'] }
 Plug 'leafgarland/typescript-vim', { 'for': ['typescript'] }
