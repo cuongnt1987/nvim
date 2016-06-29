@@ -38,6 +38,9 @@ Plug 'hail2u/vim-css3-syntax', { 'for': ['css,less,scss'] }
 Plug 'mattn/emmet-vim', { 'for': ['html'] }
 Plug 'leafgarland/typescript-vim', { 'for': ['typescript'] }
 Plug 'HerringtonDarkholme/yats.vim', { 'for': [ 'typescript' ] }
+Plug 'othree/html5-syntax.vim', { 'for': [ 'html' ] }
+Plug 'othree/html5.vim', { 'for': [ 'html' ] }
+
 
 " Color schemes :)
 Plug 'jonathanfilip/vim-lucius'
