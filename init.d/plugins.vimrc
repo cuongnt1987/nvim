@@ -16,17 +16,17 @@ let g:tern_show_signature_in_pum = 0
 
 " Use tern_for_vim - use same tern command with 
 " deoplete-ternjs
-let g:tern#command = ["tern"]
-let g:tern#arguments = ["--persistent"]
+" let g:tern#command = ["tern"]
+" let g:tern#arguments = ["--persistent"]
 
 " ===============================================
-" tern-for-vim
+" tern-for-vim (disabled)
 " ===============================================
 " enable default key mappings
-let g:tern_map_keys = 1
+" let g:tern_map_keys = 1
 
 " set <leader> for prefix keys
-let g:tern_map_prefix = '<leader>'
+" let g:tern_map_prefix = '<leader>'
 
 " ===============================================
 " FZF 
