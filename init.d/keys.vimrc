@@ -83,7 +83,7 @@ endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
-nnoremap <leader>W :call DeleteTrailingWS()
+nnoremap <leader>W :call DeleteTrailingWS()<cr>
 
 " ============================================================================
 " Helper functions
