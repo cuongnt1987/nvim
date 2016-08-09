@@ -41,7 +41,6 @@ Plug 'HerringtonDarkholme/yats.vim', { 'for': [ 'typescript' ] }
 Plug 'othree/html5-syntax.vim', { 'for': [ 'html' ] }
 Plug 'othree/html5.vim', { 'for': [ 'html' ] }
 
-
 " Color schemes :)
 Plug 'jonathanfilip/vim-lucius'
 Plug '29decibel/codeschool-vim-theme'
