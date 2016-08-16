@@ -52,13 +52,14 @@ nnoremap <leader>d :NERDTreeToggle<cr>
 nnoremap <leader>f :NERDTreeFind<cr>
 
 " ===============================================
-" vim-airline
 " ===============================================
+" vim-airline
 let g:airline_powerline_fonts = 1 
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#left_sep = ' '
 "let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline_theme = 'hybrid' 
+let g:airline_theme = 'hybrid'
+let g:airline#extensions#tmuxline#enabled = 1
 
 " ===============================================
 " Neomake
@@ -96,3 +97,25 @@ xmap <leader>a= gaip=
 xmap <leader>a: gaip<right>:
 nmap <leader>a= gaip=
 nmap <leader>a: gaip<right>:
+
+" ===============================================
+" Vimux - Easily interact with tmux from vim
+" ===============================================
+" Promt for command to run
+map <leader>rp :VimuxPromptCommand<CR>
+" Run last command executed by RunVimTmuxCommand
+map <leader>rl :VimuxRunLastCommand<CR>
+" Inspect runner pane
+map <leader>ri :VimuxInspectRunner<CR>
+" Close all other tmux panes inlcurrent window
+map <leader>rx :VimuxCloseRunner<CR>
+" Interrupt any command running in the runner pane
+map <leader>rs :VimuxInterruptRunner<CR>
+
+" ===============================================
+" BufOnly - map
+" ===============================================
+nnoremap <leader>bo :BufOnly<cr>
+" vimux pane height
+let g:VimuxHeight = "20"
+

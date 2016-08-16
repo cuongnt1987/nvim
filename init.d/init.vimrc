@@ -40,6 +40,9 @@ Plug 'leafgarland/typescript-vim', { 'for': ['typescript'] }
 Plug 'HerringtonDarkholme/yats.vim', { 'for': [ 'typescript' ] }
 Plug 'othree/html5-syntax.vim', { 'for': [ 'html' ] }
 Plug 'othree/html5.vim', { 'for': [ 'html' ] }
+Plug 'benmills/vimux'
+Plug 'edkolev/tmuxline.vim' "Tmux status line for vim-airline
+Plug 'vim-scripts/BufOnly.vim'
 
 " Color schemes :)
 Plug 'jonathanfilip/vim-lucius'
