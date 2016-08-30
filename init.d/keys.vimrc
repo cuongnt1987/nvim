@@ -149,7 +149,8 @@ endfunction
 map <Leader>` :let &background = ( &background == "dark"? "light" : "dark" )<CR>
 
 " Colorschema switching
-nnoremap <leader>1 :colorscheme codeschool \| :AirlineTheme badwolf<cr>
+nnoremap <leader>1 :colorscheme dracula \| :AirlineTheme dracula<cr>
 nnoremap <leader>2 :colorscheme lucius \| :AirlineTheme lucius<cr>
 nnoremap <leader>3 :colorscheme hybrid \| :AirlineTheme hybrid<cr>
+nnoremap <leader>4 :colorscheme srcery \| :AirlineTheme base16<cr>
 nnoremap <leader>0 :colorscheme torte \| :AirlineTheme papercolor<cr>

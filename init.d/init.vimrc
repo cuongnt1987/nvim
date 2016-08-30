@@ -46,6 +46,7 @@ Plug 'vim-scripts/BufOnly.vim'
 
 " Color schemes :)
 Plug 'jonathanfilip/vim-lucius'
-Plug '29decibel/codeschool-vim-theme'
 Plug 'w0ng/vim-hybrid'
+Plug 'dracula/vim'
+Plug 'roosta/srcery'
 call plug#end()
