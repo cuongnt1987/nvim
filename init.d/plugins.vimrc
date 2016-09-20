@@ -9,7 +9,7 @@ autocmd CompleteDone * pclose!
 " ===============================================
 " dooplete-ternjs
 " ===============================================
-let g:tern_request_timeout = 1
+let g:tern_request_timeout = 2
 
 " This do disable full signature type on autocomplete
 let g:tern_show_signature_in_pum = 0  
@@ -23,10 +23,10 @@ let g:tern#arguments = ["--persistent"]
 " tern-for-vim (disabled)
 " ===============================================
 " enable default key mappings
-let g:tern_map_keys = 1
+"let g:tern_map_keys = 1
 
 " set <leader> for prefix keys
-let g:tern_map_prefix = '<leader>'
+"let g:tern_map_prefix = '<leader>'
 
 " ===============================================
 " FZF 
